@@ -20,5 +20,5 @@
           - ansible-role-vagrant
           - ansible-role-ruby
           - vagrant-vmware-esxi
-
-
+          - ansible-role-docker
+          - ansible-role-pip
