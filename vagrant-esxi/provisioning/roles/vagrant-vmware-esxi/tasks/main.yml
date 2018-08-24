@@ -1,0 +1,12 @@
+---
+- name: Install vagrant-vmware-esxi
+  shell: vagrant plugin install vagrant-vmware-esxi
+
+- name: Copying ovftool.bundle to VMware
+  copy:
+          src=VMware-ovftool-4.3.0-7948156-lin.x86_64.bundle
+          dest=/root/ovftool.bundle
+          
+
+#- name: Installing ovftool 
+#  shell: bash /root/ovftool.bundle

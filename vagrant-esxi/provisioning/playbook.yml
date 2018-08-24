@@ -22,3 +22,4 @@
           - vagrant-vmware-esxi
           - ansible-role-docker
           - ansible-role-pip
+          - ansible-role-kubernetes
